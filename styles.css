@@ -1,0 +1,58 @@
+body {
+    background-color: #121212; 
+    color: #e0e0e0;   
+}
+
+.standard-header {
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 266);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.header-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 25%;
+}
+
+.header-text {
+  margin-left: 10px;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.header-text h3 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.nav-btn {
+  padding: 25px 55px;
+  cursor: pointer;
+  border-radius: 8px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.8);
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  backdrop-filter: brightness(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+  transition: all 0.2s ease;
+}
+
+.header-color {
+    background: linear-gradient(90deg, rgb(31, 0, 32) 0%, rgb(76, 1, 99) 50%, rgb(165, 1, 183) 100%);
+}
